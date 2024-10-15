@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Mi Portafolio</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Mi Portafolio</div>
+            <ul class="nav-links">
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+            <div class="menu-toggle">☰</div>
+        </nav>
+    </header>
+
+    <section id="sobre-mi">
+        <h1>Sobre mí</h1>
+        <p>Trabajo en el foto estudio sony y soy estudiante de la carrera de ingenieria de sistemas tengo 24 años realize mis estudio en primaria en el colegio fe y alegria  y culmine mis estudio en el colegio la salle </p>
+    </section>
+
+    <section id="proyectos">
+        <h1>Proyectos</h1>
+        <div class="carousel">
+            <div class="carousel-item active">Proyecto 1
+                <img src="imagen 1.jpeg" alt="proyecto 1">
+            </div>
+            <div class="carousel-item">Proyecto 2</div>
+            <div class="carousel-item">Proyecto 3</div>
+            <button class="prev">❮</button>
+            <button class="next">❯</button>
+        </div>
+    </section>
+
+    <section id="contacto">
+        <h1>Contacto</h1>
+        <form id="contact-form">
+            <input type="text" name="name" placeholder="Nombre" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <textarea name="message" placeholder="Mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2024 Mi Portafolio</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
